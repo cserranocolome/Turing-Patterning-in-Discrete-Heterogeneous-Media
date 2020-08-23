@@ -15,3 +15,7 @@ wgPlot2: plots a graph given its adjacency matrix and vertices coordinates.
 ComputeGraphAsymptotics: returns the asymptotic approximations of the eigenvalues of the full system composed by two coupled graphs. Scalar case.
 
 ComputeGraphAsymptoticsSystem: returns the asymptotic approximations of the eigenvalues of the full system composed by two coupled graphs. System case.
+
+In order to be able to generate random graphs the package "matlab_bgl" is needed. Moreover, to generate circulant graphs we used an already implemented function called "circulant" which we also include here. 
+
+circulant: generates a square circulant matrix.

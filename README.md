@@ -19,3 +19,5 @@ ComputeGraphAsymptoticsSystem: returns the asymptotic approximations of the eige
 In order to be able to generate random graphs the package "matlab_bgl" is needed. Moreover, to generate circulant graphs we used an already implemented function called "circulant" which we also include here. 
 
 circulant: generates a square circulant matrix.
+
+Some examples can be found in "examples.m".
